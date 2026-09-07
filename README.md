@@ -239,6 +239,12 @@ GitHub Actions 會：
 
 **簽名說明**：CI 出來的 APK 用 Flutter debug keystore 簽，可 sideload 但無法上 Google Play。要做 production signing 需另存 keystore 至 GitHub Secrets 並改 `android/app/build.gradle.kts` signing config。
 
+---
+
+## 支持
+
+如果這個專案幫你省了點時間，可以[請我喝杯咖啡](https://buymeacoffee.com/iml1s)。
+
 ## License
 
 Apache-2.0；發佈成品因含 youtubedl-android 必須以 GPL-3.0 散布。
